@@ -1,0 +1,10 @@
+/* img {
+    width: 700px;
+    height: 500px;
+} */
+p {
+    background-image: url(./ramka/ramka.png);
+    background-repeat: no-repeat;
+    background-position:top
+    
+}
