@@ -1,0 +1,25 @@
+.one {
+    background-position: left center;
+    background: url(/task4/pic3.jpeg) repeat-y;
+    background-repeat: no-repeat;
+}
+.two {
+    background-position: right center;
+    background: url(/task4/pic3.jpeg) repeat-y;
+    background-repeat: no-repeat;
+}
+.three {
+    background-position: center top;
+    background: url(/task4/pic4.jpeg) repeat-x;
+    background-repeat: no-repeat;
+}
+.four {
+    background-position: center bottom;
+    background: url(/task4/pic4.jpeg) repeat-x;
+    background-repeat: no-repeat;
+}
+.five {
+    background-position: left top;
+    background: url(/task4/pic1.jpeg);
+    background-repeat: no-repeat;
+}
