@@ -1,25 +1,42 @@
-.one {
-    background-position: left center;
+p {
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.o1 {
     background: url(/task4/pic3.jpeg) repeat-y;
-    background-repeat: no-repeat;
 }
-.two {
-    background-position: right center;
-    background: url(/task4/pic3.jpeg) repeat-y;
-    background-repeat: no-repeat;
+
+.o2 {
+    background: url(/task4/pic3.jpeg) repeat-y right;
 }
-.three {
-    background-position: center top;
+
+.o3 {
     background: url(/task4/pic4.jpeg) repeat-x;
-    background-repeat: no-repeat;
+
 }
-.four {
-    background-position: center bottom;
-    background: url(/task4/pic4.jpeg) repeat-x;
-    background-repeat: no-repeat;
+.o4 {
+    background: url(/task4/pic4.jpeg) repeat-x bottom;
+
 }
-.five {
+.r1 {
     background-position: left top;
     background: url(/task4/pic1.jpeg);
+    background-repeat: no-repeat;
+}
+.r2 {
+    background-position: left bottom;
+    background: url(/task4/pic7.jpeg);
+    background-repeat: no-repeat;
+}
+.r3 {
+    background-position: right top;
+    background: url(/task4/pic5.jpeg);
+    background-repeat: no-repeat;
+}
+.r4 {
+    background-position: right bottom;
+    background: url(/task4/pic6.jpeg);
     background-repeat: no-repeat;
 }
