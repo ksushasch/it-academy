@@ -1,5 +1,6 @@
 table {
-    width: 500px;
+    width: 700px;
+    height: 500px;
     text-align: center;
     border: 1px solid white;
 }
@@ -8,7 +9,9 @@ table {
     text-align: center;
     padding: 22px;
     background-color: skyblue;
+    color: steelblue;
 }
+
 .left2 {
     font-weight: bold;
     font-size: 15px;
@@ -18,21 +21,14 @@ table {
     list-style-type: disc;
     background-color: lemonchiffon;
     border: 1px solid white;
+    padding: 30px;
+    text-align: left;
 }
-.right1 {
-    border: 1px solid white;
-}
-h1 {
-    text-align: center;
-}
+
 img  {
     float: left;
     width: 220px;
 }
-.h1 {
-    border: 1px solid white;
-    /* text-align: center; */
-    padding: 22px;
-    background-color: skyblue;
-    vertical-align:bottom;
+ul {
+    list-style-type: disc;
 }
