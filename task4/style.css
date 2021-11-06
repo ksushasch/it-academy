@@ -1,6 +1,6 @@
 p {
-    padding: 25px;
-    font-size: 30px;
+    padding: 30px;
+    font-size: 100px;
     text-align: center;
 }
 
@@ -9,34 +9,33 @@ p {
 }
 
 .o2 {
-    background: url(/task4/pic3.jpeg) repeat-y right;
+    background: url(/task4/pic2.jpeg) repeat-y right;
 }
 
 .o3 {
     background: url(/task4/pic4.jpeg) repeat-x;
-
 }
+
 .o4 {
     background: url(/task4/pic4.jpeg) repeat-x bottom;
+}
 
-}
 .r1 {
-    background-position: left top;
-    background: url(/task4/pic1.jpeg);
-    background-repeat: no-repeat;
+
+    background: url(/task4/pic1.jpeg) no-repeat;
 }
+
 .r2 {
-    background-position: left bottom;
-    background: url(/task4/pic7.jpeg);
-    background-repeat: no-repeat;
+
+    background: url(/task4/pic5.jpeg) no-repeat left bottom;
 }
+
 .r3 {
-    background-position: right top;
-    background: url(/task4/pic5.jpeg);
-    background-repeat: no-repeat;
+
+    background: url(/task4/pic7.jpeg) no-repeat right top;
 }
+
 .r4 {
-    background-position: right bottom;
-    background: url(/task4/pic6.jpeg);
-    background-repeat: no-repeat;
+
+    background: url(/task4/pic6.jpeg) no-repeat right bottom;
 }
