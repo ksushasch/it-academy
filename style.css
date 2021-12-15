@@ -1,0 +1,624 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;  
+}
+
+nav a {
+    text-decoration: none; 
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00ddff;
+}
+
+.BetterWorld2 h1{
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+header {
+    min-width: 320px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #003646;
+
+}
+
+.header_text{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.header_img {
+    max-height: 35px;
+}
+
+.header_PhoneEmail{
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    margin: 10px 0 0 20px;
+}
+
+.introHat {
+    width: 100%;
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(./images/banner1.jpg);
+    background-repeat: no-repeat;
+}
+
+.introHat2 {
+    width: 100%;
+    display: flex;
+    height: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introNav{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.BetterWorld1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.BetterWorld2 {
+    width: 100%;
+    height: 100%;
+    font-size: 57px ;
+    padding-left: 50px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Vollkorn SC', serif;
+}
+
+.world {
+    color:#00ddff;
+}
+
+.pointparagrabutton {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Hepta Slab', serif;
+}
+
+.textspan {
+    padding-left: 10px;
+}
+
+.point {
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+}
+
+.contactUs {
+    display:block;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background-color: #1a1818;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 45px 10px 45px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.Tile_Car_Lau{
+    min-width: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tile_grout1, .la_ser1{
+    width: 30%;
+    background-image: url(./images/cardblue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.tile_grout2, .car_clean2, .la_ser2 {
+    font-family: 'Vollkorn SC', serif;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+}
+
+.tile_grout3, .car_clean3, .la_ser3 {
+    font-family: 'Hepta Slab', serif;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.car_clean1 {
+    width: 30%;
+    background-image: url(./images/cardyellow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.WelcomeToClean1 {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.WelcomeToClean2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wel1 {
+    font-family: 'Vollkorn SC', serif;
+    font-size: 50px;
+    border-right: 5px solid #00ddff;
+}
+
+.wel2 {
+    border-bottom: 7px solid #00ddff;
+}
+
+.wel3 {
+    display: flex;
+    font-family: 'Hepta Slab', serif;
+    align-items: center;
+}
+
+.welcome_pag {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pag1, .pag2 {
+    width: 45%;
+    display: flex;
+    border: 12px solid black;
+}
+
+.button_ReadMore1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button_ReadMore2 {
+    width: 200px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    background-color: #1a1818;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 45px 10px 45px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.Our_Work_Pro1 {
+    width: 100%;
+    display: flex;
+    background-color: #003646;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.our_work_pro2 {
+    width: 100%;
+    margin: 70px 0 20px 60px;
+    color: white;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 50px;
+}
+
+.our {
+    border-bottom: 7px solid #00ddff;
+    margin-right: 10px;
+}
+
+.our_work_pro3 {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.our_work_pro3 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.our11, .our22, .our33 {
+    color: white;
+    display: flex;
+    text-align: center;
+
+}
+
+.right_arr, .left_arr {
+    font-size: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.picture_section {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.customer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.h1_customer {
+    min-width: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 50px;
+    margin: 20px 0 20px 0;
+}
+
+.mer {
+    padding-top: 8px;
+    border-bottom: 7px solid #00ddff;
+    margin-right: 10px;
+}
+
+.knopka4 {
+    display: flex;
+    -webkit-transform: rotate(180deg);
+    padding-right: 20px;
+}
+
+.knopka3 {
+    display: flex;
+    padding-right: 20px;
+}
+
+.rev {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.luka_duge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.rev2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+}
+
+.luca_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0px 50px;
+    margin-top: 10px
+}
+
+.read_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.read_more1 {
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px 45px 10px 45px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    margin: 40px 0 100px 0;
+}
+
+.request_a_call2 {
+    font-family: 'Vollkorn SC', serif;
+    color: white;
+    margin: 50px 0 0 20px;
+}
+
+.req {
+    border-bottom: 7px solid white
+}
+
+.request_a_call_back {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas:
+        'contact-left contact-right'
+    ;
+}
+
+.request_a_call_back2 {
+    background-color: rgb(74, 201, 240);
+    gap: 40px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    grid-area: contact-left;
+}
+
+.request_a_call_back2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 40px;
+}
+
+.request_a_call_back2 img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transform: translate(100%, 0);
+}
+
+.request_a_call_back div button {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 19px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.request_a_call2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.request_a_call div {
+    width: 150px;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    transform: translate(0, -50%);
+}
+
+.request_a_call_back2 input {
+    background-color: rgb(74, 201, 240);
+    border: 0;
+    border-bottom: white 1px solid;
+    font-family: 'Vollkorn SC', serif;
+    width: 70%;
+}
+
+.request_a_call_back2 input::placeholder {
+    color: white;
+}
+
+iframe {
+    grid-area: contact-right;
+    width: 100%;
+}
+
+.follow_us {
+    width: 100%;
+    background-color: rgb(58, 58, 56) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+}
+
+.social2 {
+    color: white;
+    display: flex;
+    font-family: 'Hepta Slab', serif;
+}
+
+.pic_social {
+    display: flex;
+}
+
+@media (max-width: 1100px) {
+    .picture_section img{
+        height: 85vw;
+    }
+    .our_work_pro3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 920px) {
+    .Tile_Car_Lau{
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+    .car_clean1 {
+        margin: 10px 0px;
+        width: 80%;
+        height: 230px;
+    }
+    .tile_grout1, .la_ser1{
+        width: 80%;
+        height: 230px;
+    }
+    .request_a_call_back {
+        display: flex;
+        flex-direction: column;
+    }
+    .request_a_call_back .send {
+        padding-bottom: 20px;
+    }
+   
+    .request_a_call_back2 img {
+        display: none;
+    }
+}  
+
+@media (max-width: 754px) {
+    .introHat2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .introNav {
+        padding-top: 20px;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 650px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0px;
+    }
+    .header_text{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .header_img {
+        padding: 15px 0px;
+        height: 30px;
+    }
+    .header_img2 img {
+        height: 70px;
+    }
+    .welcome_pag {
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome_pag .pag1 {
+        margin: 15px 0px;
+    }
+} 
+
+@media (max-width: 616px) {
+    
+    .introNav {
+        padding-top: 20px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .introNav a {
+        padding: 7px;
+    }
+}
+
+@media (max-width: 599px) {
+    .BetterWorld2 h1{
+        font-size: 13vw;
+    }
+}
+
+@media (max-width: 529px) {
+    .car_clean1 {
+        width: 90%;
+        height: 100%;
+    }
+    .tile_grout1, .la_ser1{
+        width: 90%;
+        height: 100%;
+    }
+    .h1_customer p{
+        font-size: 9vw;
+    }
+}
+
+@media (max-width: 387px) {
+    
+    .WelcomeToClean2 {
+        height: 100%;
+        flex-direction: column;
+    }
+    .WelcomeToClean2 .wel1 {
+        border-right: none;
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width: 430px) {
+    .our11 .bigimg {
+        height: 300px;
+    }
+    .smallimg {
+        height: 220px;
+    }
+}
+
+@media (max-width: 340px) {
+    .our_work_pro2 {
+        margin: auto;
+    }
+}
