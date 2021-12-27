@@ -1,0 +1,12 @@
+.tex1 {
+    display: inline;
+    float: left;
+    margin-left: 100px;
+    font-family: 'Amatic SC', cursive;
+}
+.tex2 {
+    display: inline;
+    float: right;
+    margin-right: 100px;
+    font-family: 'Cormorant SC', serif;
+}
